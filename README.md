@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# REACT Counter Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## What is this project about?
 
-## Available Scripts
+This React Counter project offers users the opportunity to count with a little twist on the "Add value" button.
+This project is built with [React](https://react.dev) JS library and CSS, using the [create-react-app](https://create-react-app.dev/) tool
 
-In the project directory, you can run:
+# Getting Started
 
-### `npm start`
+#### Installing Dependencies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1.  **Installing Node and NPM**
+    This project builds on top of Nodejs and Node Package Manager (NPM). Before continuing, you must download and install Node (the download includes NPM) from [https://nodejs.com/en/download](https://nodejs.org/en/download/).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2.  **Installing project dependencies**
+    To create a project called React-counter, run this command:
 
-### `npm test`
+    ```bash
+    npx create-react-app React-counter
+    ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    Alternatively, you can use the command:
 
-### `npm run build`
+    ```bash
+    npm create-react-app React-counter
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    To know the difference between "npx" and "npm", visit [GeeksforGeeks](https://www.geeksforgeeks.org/what-are-the-differences-between-npm-and-npx/) for more.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    To install all dependencies or devDependencies from package.json file, run this command from terminal:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ```bash
+    npm install
+    ```
 
-### `npm run eject`
+    > _tip_: `npm i` is shorthand for `npm install``
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Running Your Frontend in Dev Mode
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The frontend app was built using the React Library with create-react-app (as the bundler). In order to run the app in development mode use `npm start`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Open [http://localhost:3000](http://localhost:) to view it in the browser. The page will reload if you make edits.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm start
+```
 
-## Learn More
+## Contributions
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Refactored the code for optimization
+2. Broke code into components
+3. Improved CSS for more UX
+   😊😊😊
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Acknowledgements
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Hitesh Choudhary](https://hiteshchoudhary.com/) The project was developed as a part of a React Video tutorial on [Youtube](https://www.youtube.com/watch?v=4DqAvWonPAg).
