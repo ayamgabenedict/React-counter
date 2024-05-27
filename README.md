@@ -47,11 +47,12 @@ npm start
 
 ## Contributions
 
-1. Refactored the code for optimization
-2. Broke code into components
-3. Improved CSS for more UX
+1. Broke code into components.
+1. Implemented the `useState` hook to effect changes at multiple places.
+1. Improved CSS for user interactivity
    😊😊😊
+1. Refactored the code for optimization.
 
 ## Acknowledgements
 
-- [Hitesh Choudhary](https://hiteshchoudhary.com/) The project was developed as a part of a React Video tutorial on [Youtube](https://www.youtube.com/watch?v=4DqAvWonPAg).
+- [Hitesh Choudhary](https://hiteshchoudhary.com/) The project was developed as part of a React Video tutorial on [Youtube](https://www.youtube.com/watch?v=4DqAvWonPAg).

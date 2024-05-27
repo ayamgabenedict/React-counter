@@ -7,8 +7,14 @@ body{
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
-    
+    align-content: center; 
+}
+
+.buttonsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .main-title{
@@ -25,6 +31,8 @@ body{
     flex-direction: row;
     text-shadow: 5px -1px 10px rgba(245, 16, 212, 0.4);
     color: #f510d4;
+    display: flex;
+    justify-content: center;
 
 }
 .footer{
@@ -33,6 +41,8 @@ body{
     font-size: 37px;
     text-shadow: 5px -1px 10px rgba(16, 236, 245, 0.4);
     color: #10ecf5;
+    display: flex;
+    justify-content: center;
 }
 
 .button{
@@ -45,10 +55,9 @@ body{
     border-color: #f510d4;
     box-shadow: aqua;
     border-width: 0.5px;
-
 }
+
 .button:hover {
-    
     cursor: pointer;
     background-color: rgb(198, 245, 239)
   }
